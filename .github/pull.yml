@@ -1,0 +1,7 @@
+version: "1"
+rules:
+- base: develop
+  upstream: boostorg:disjoint_sets
+  mergeMethod: rebase
+  conflictReviewers:
+  - zaucy
